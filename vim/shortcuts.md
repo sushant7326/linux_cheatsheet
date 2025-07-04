@@ -11,6 +11,7 @@ enter normal mode: `escape key`
 
 set nomodeline: put this at the top of the file `# vim: set nomodeline:`
 
+open/close terminal: `alt+v`
 
 ## navigation
 
@@ -25,7 +26,8 @@ page up/down: work as intended
 ## saving
 
 save: `:w`  
-save and exit: `:x`
+save and exit: `:x`  
+exit without saving: `:q!`
 
 ## editing (in normal mode)
 
@@ -34,7 +36,13 @@ delete a line: `dd`
 undo: `u`  
 redo: `ctrl + r`
 
-copy (yank): `yy`  
+character-wise text selection: `v`  
+line-wise text selection: `V`  
+block-wise text selection: `ctrl + v`  
+text selection: `<key> + arrow keys`
+
+copy (yank): `y`  
+cut (delete+yank): `d`  
 paste (put): `p`
 
 search: `/\<keyword>`  
