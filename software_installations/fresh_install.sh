@@ -21,3 +21,10 @@ yay -S jdk --noconfirm
 
 # NvChad
 yay -S nvchad
+
+# FlatPak
+sudo pacman -S flatpak
+sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
+# OBS
+flatpak install flathub com.obsproject.Studio
